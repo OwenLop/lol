@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:700,900&amp;subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Raleway|Roboto+Slab|Quicksand' rel='stylesheet' type='text/css'>
+    <title>PiggyBank Money Clicker - Idle Game</title>
+ </head>
+<body class="piggygame">
+<div class="header">
+    <div class="item">
+        <div id="level" class="color-white level">Level 1</div>
+    </div>
+    <div class="item">
+        <div id="walletDisp" class="color-white">Time to make money!</div>
+    </div>
+    <div class="item other">
+        <div id="bonus" class="color-white ">Bonus: x 1</div>
+        <div class="playinsite">
+            <a href="https://mymoneyrain.com/piggybank/play?utm_source=extension&utm_medium=cpa&utm_campaign=popup_game&utm_content=link&utm_term=play_in_site"
+               target="_blank">Play on site</a>
+        </div>
+        <div class="playinsite">
+            <a href="https://chrome.google.com/webstore/detail/piggybank-money-clicker-i/mkccemimdjbojildcllapppfhphcfmkn/reviews"
+               target="_blank">Rate us</a>
+        </div>
+        <div class="sound">
+            <svg id="sound" class="soundOn" enable-background="new 0 0 512 512" height="24px" version="1.1"
+                 viewBox="0 0 512 512" width="24px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"><path d="M408.207,150.644c-12.984,12.954-33.993,12.954-46.979,0c-12.955-12.955-12.955-33.995,0-46.981l93.931-93.931  c12.986-12.955,33.995-12.955,46.981,0c12.954,12.955,12.954,33.995,0,46.98L408.207,150.644z M255.871,511.727L128.008,383.863  H32.11c-17.669,0-31.966-14.299-31.966-31.967V160.102c0-17.668,14.297-31.966,31.966-31.966h95.897L255.871,0.272  c0,0,31.966-3.996,31.966,31.966c0,191.233,0,478.926,0,447.522C287.837,515.722,255.871,511.727,255.871,511.727z M223.905,128.136  l-63.932,63.932H64.076v127.864h95.896l63.932,63.933V128.136z M383.734,287.965c-17.669,0-31.966-14.297-31.966-31.966  c0-17.668,14.297-31.966,31.966-31.966h95.897c17.669,0,31.966,14.298,31.966,31.966c0,17.669-14.297,31.966-31.966,31.966H383.734z   M408.207,361.355l93.933,93.931c12.954,12.986,12.954,34.026,0,46.98c-12.986,12.955-33.995,12.955-46.981,0l-93.931-93.931  c-12.955-12.986-12.955-34.025,0-46.98C374.214,348.4,395.223,348.4,408.207,361.355z"/></svg>
+        </div>
+
+    </div>
+</div>
+
+
+<div id="swin" class="player"></div>
+
+<div class="footer">
+    <div class="item">
+        <div id="updaCash" class="button red">
+            <span id="updaCash_text" class="color-white">Upgrade click</span>
+        </div>
+    </div>
+    <div class="item">
+        <div id="updaCloud" class="button red">
+            <span id="updaCloud_text" class="color-white">Flexing</span>
+        </div>
+    </div>
+    <div id="bannerimg" class="banner">
+        <span id="closeBanner" class="close">×</span>
+        <div id="lir"></div>
+    </div>
+</div>
+
+
+<div id="overlay" class="overlay">
+    <div class="popup">
+        <a href="#" class="popup-close">
+            <svg height="16px" id="Layer_1" style="enable-background:new 0 0 32 32;" version="1.1"
+                 viewBox="0 0 512 512"
+                 width="16px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
+                 xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M443.6,387.1L312.4,255.4l131.5-130c5.4-5.4,5.4-14.2,0-19.6l-37.4-37.6c-2.6-2.6-6.1-4-9.8-4c-3.7,0-7.2,1.5-9.8,4  L256,197.8L124.9,68.3c-2.6-2.6-6.1-4-9.8-4c-3.7,0-7.2,1.5-9.8,4L68,105.9c-5.4,5.4-5.4,14.2,0,19.6l131.5,130L68.4,387.1  c-2.6,2.6-4.1,6.1-4.1,9.8c0,3.7,1.4,7.2,4.1,9.8l37.4,37.6c2.7,2.7,6.2,4.1,9.8,4.1c3.5,0,7.1-1.3,9.8-4.1L256,313.1l130.7,131.1  c2.7,2.7,6.2,4.1,9.8,4.1c3.5,0,7.1-1.3,9.8-4.1l37.4-37.6c2.6-2.6,4.1-6.1,4.1-9.8C447.7,393.2,446.2,389.7,443.6,387.1z"/></svg>
+        </a>
+        <h1 class="popup-title">Enjoying the game?</h1>
+        <div class="content">
+            Share your opinion about the game on the Chrome Web Store!!!
+        </div>
+        <div class="actions">
+            <a target="_blank" href="https://chrome.google.com/webstore/detail/piggybank-money-clicker-i/mkccemimdjbojildcllapppfhphcfmkn/reviews">Write a review</a>
+            <a target="_blank" href="https://chrome.google.com/webstore/detail/piggybank-money-clicker-i/mkccemimdjbojildcllapppfhphcfmkn">Leave a rating</a>
+        </div>
+    </div>
+</div>
+<script src="libs/jquery.js"></script>
+
+<script src="libs/core.js"></script>
+
+<script src="js/content.js"></script>
+</body>
+</html>

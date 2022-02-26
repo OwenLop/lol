@@ -1,0 +1,1 @@
+(function () {chrome.runtime.sendMessage({method: "getUid", action: 'getUid'}, function(response) {});})();
